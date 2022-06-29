@@ -1,0 +1,38 @@
+#todo {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#todo.not_done {
+    background-color: rgb(252, 188, 110);
+}
+
+#todo.done {
+    background-color: rgb(55, 172, 114);
+}
+
+#todo > div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#todo p {
+    margin-left: 10px;
+}
+
+#todo button {
+    height: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#todo .task_done {
+    text-decoration: line-through;
+}
